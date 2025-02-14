@@ -27,7 +27,7 @@ var/
 *.changes
 *.orig.*
 packaging/*tar.xz
-library/debian/
+src/debian/
 # Installer logs
 pip-log.txt
 pip-delete-this-directory.txt

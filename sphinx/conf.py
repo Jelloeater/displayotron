@@ -19,7 +19,7 @@ sys.modules['RPi.GPIO'] = mock.Mock()
 
 sys.modules['sn3218'].default_gamma_table = []
 
-sys.path.insert(0, '../library/')
+sys.path.insert(0, '../src/')
 
 
 from sphinx.ext import autodoc
