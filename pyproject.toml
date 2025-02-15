@@ -1,7 +1,11 @@
 [project]
 name = "displayotron"
 version = "0.1.0"
-description = "Add your description here"
+description = "displayotron Interface Lib"
 readme = "README.md"
 requires-python = ">3"
-dependencies = []
+dependencies = [
+    "rpi-gpio>=0.7.1",
+    "sn3218>=3.0.0",
+    "st7036>=1.4.4",
+]
